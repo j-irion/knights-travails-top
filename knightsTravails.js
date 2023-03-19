@@ -1,4 +1,4 @@
-function shortestPath(start, target) {
+function knightMoves(start, target) {
   const n = 8; // size of the chessboard
   const moves = [
     [2, 1],
@@ -37,4 +37,4 @@ function shortestPath(start, target) {
 }
 
 // simple test
-console.log(shortestPath([0, 0], [7, 7]));
+console.log(knightMoves([0, 0], [7, 7]));
